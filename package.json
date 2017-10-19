@@ -1,0 +1,39 @@
+{
+  "name": "tcomb-form-native-json-schema",
+  "version": "0.1.0",
+  "description": "A bridge between tcomb-json-schema and tcomb-form-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --single-quote --print-width 81 --write index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APSL/tcomb-form-native-json-schema.git"
+  },
+  "keywords": ["react-native", "react", "tcomb", "json-schema"],
+  "author": "Alvaro Medina Ballester <amedina@apsl.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APSL/tcomb-form-native-json-schema/issues"
+  },
+  "homepage": "https://github.com/APSL/tcomb-form-native-json-schema#readme",
+  "devDependencies": {
+    "@types/eslint-plugin-prettier": "^2.2.0",
+    "@types/prettier": "^1.7.0",
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.7.2",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-flowtype": "^2.36.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-react-native": "^3.1.0",
+    "prettier": "^1.7.0"
+  },
+  "dependencies": {
+    "@types/moment": "^2.13.0",
+    "moment": "^2.18.1",
+    "tcomb-form-native": "^0.6.10",
+    "tcomb-json-schema": "^0.3.2"
+  }
+}
