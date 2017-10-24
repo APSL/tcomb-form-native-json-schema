@@ -1,6 +1,6 @@
 {
   "name": "tcomb-form-native-json-schema",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A bridge between tcomb-json-schema and tcomb-form-native",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@types/moment": "^2.13.0",
-    "moment": "^2.18.1",
+    "moment": "^2.19.1",
     "tcomb-form-native": "^0.6.11",
     "tcomb-json-schema": "^0.3.2"
   }
